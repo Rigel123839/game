@@ -1,0 +1,11 @@
+#burn_container {
+  height: 100%;
+  width: 100%;
+}
+
+#burn {
+  position: absolute;
+
+  top: 0;
+  left: 0;
+}
