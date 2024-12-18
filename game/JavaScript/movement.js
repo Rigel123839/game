@@ -3,7 +3,7 @@ const player = document.getElementById("character");
 // movement speed definition
 let ms = 3;
 // start position of player
-let x = 2000;
+let x = 800;
 let y = 900;
 
 // get player
