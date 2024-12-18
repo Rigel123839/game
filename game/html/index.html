@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="../css/background.css" />
+<link rel="stylesheet" href="../css/character.css" />
+<link rel="stylesheet" href="../css/area.css" />
+<link rel="stylesheet" href="../css/burn.css" />
+<link rel="stylesheet" href="../css/score.css" />
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mohammad er tørst</title>
+</head>
+
+<body>
+  <!-- player score. -->
+  <div id="player_score">0 SCORE</div>
+  <!-- area for player to move -->
+  <div id="area">
+    <div id="burn_container"></div>
+    <!-- Player model -->
+    <div id="character">
+      <div class="abs">
+        <img class="sondre sondreLeft unseen" src="../NPCS/ferdig/SondreLeft.png" alt="sondre igjen" />
+      </div>
+      <div class="abs">
+        <img class="sondre sondreRight" src="../NPCS/ferdig/SondreRight.png" alt="sondre" />
+      </div>
+
+      <!-- <div class="hat"></div>
+            <div class="face"></div>
+            <div class="jacket"></div>
+            <div class="pants"></div>
+            <div class="boots"></div> -->
+    </div>
+  </div>
+
+  <script defer src="../JavaScript/movement.js"></script>
+  <script defer src="../JavaScript/randomBurnSpawn.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-height: 100dvh;
+  min-height: 100dvh;
+}
+
+#area {
+  width: 100dvw;
+  height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* display the players position on screen */
+#position {
+  position: absolute;
+  margin-left: 80%;
+  height: 300px;
+  width: auto;
+  font-size: 100px;
+  color: whitesmoke;
+}
