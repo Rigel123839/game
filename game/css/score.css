@@ -1,0 +1,8 @@
+#player_score {
+  position: absolute;
+  margin-left: 5rem;
+  height: 300px;
+  width: auto;
+  font-size: 100px;
+  color: whitesmoke;
+}
