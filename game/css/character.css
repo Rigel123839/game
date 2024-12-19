@@ -1,0 +1,54 @@
+#character {
+  height: 206px;
+  width: 90px;
+  /* 
+  background-color: wheat;
+  border: solid 2px black; */
+
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  height: 200px;
+  width: auto;
+}
+.abs {
+  position: absolute;
+}
+
+.unseen {
+  display: none;
+}
+
+.hat {
+  height: 10px;
+  width: 100%;
+  background-color: black;
+}
+
+.face {
+  background-color: bisque;
+  height: 20px;
+}
+
+.jacket {
+  height: 50%;
+  background-color: #455;
+}
+
+.pants {
+  height: 30%;
+  background-color: paleturquoise;
+}
+
+.boots {
+  background-color: black;
+  height: 10px;
+}

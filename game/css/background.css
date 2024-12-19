@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+}
+
+body {
+  overflow: hidden;
+  background-color: #422;
+  height: 100dvh;
+  width: 100dvw;
+}
